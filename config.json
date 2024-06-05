@@ -1,0 +1,23 @@
+{
+    "source": ["tokens-repo/tokens/**/*.json"],
+    "platforms": {
+      "css": {
+        "transformGroup": "css",
+        "prefix": "sd",
+        "buildPath": "build/css/",
+        "files": [{
+          "destination": "_variables.css",
+          "format": "css/variables"
+        }]
+      },
+      "scss": {
+        "transformGroup": "scss",
+        "prefix": "sd",
+        "buildPath": "build/scss/",
+        "files": [{
+          "destination": "_variables.scss",
+          "format": "scss/variables"
+        }]
+      }
+    }
+  }
